@@ -1,0 +1,21 @@
+# Binaries and object files
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Compiled assessment binaries
+problem1-drop-port/drop-port
+problem2-process-filter/proc-filter
+problem2-process-filter/myprocess
+problem3-code-explanation/buggy/buggy
+problem3-code-explanation/fixed/fixed
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

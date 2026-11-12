@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  accuknox-ebpf:
+    build: .
+    image: accuknox-ebpf-interview
+    container_name: accuknox-ebpf-demo
+    privileged: true
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+      - /sys/kernel/debug:/sys/kernel/debug:rw
+    network_mode: host
+    stdin_open: true
+    tty: true
+
